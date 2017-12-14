@@ -1,0 +1,72 @@
+\hypertarget{classTmx_1_1PropertySet}{\section{Tmx\-:\-:Property\-Set Class Reference}
+\label{classTmx_1_1PropertySet}\index{Tmx\-::\-Property\-Set@{Tmx\-::\-Property\-Set}}
+}
+
+
+This class contains a map of properties.  
+
+
+
+
+{\ttfamily \#include $<$Tmx\-Property\-Set.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTmx_1_1PropertySet_a242a55171b6dff9be49aa27fc157fec2}{void \hyperlink{classTmx_1_1PropertySet_a242a55171b6dff9be49aa27fc157fec2}{Parse} (const tinyxml2\-::\-X\-M\-L\-Node $\ast$properties\-Node)}\label{classTmx_1_1PropertySet_a242a55171b6dff9be49aa27fc157fec2}
+
+\begin{DoxyCompactList}\small\item\em Parse a node containing all the property nodes. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_ac83515f6a70328784ff88a7c95fc095c}{int \hyperlink{classTmx_1_1PropertySet_ac83515f6a70328784ff88a7c95fc095c}{Get\-Int\-Property} (const std\-::string \&name, int default\-Value=0) const }\label{classTmx_1_1PropertySet_ac83515f6a70328784ff88a7c95fc095c}
+
+\begin{DoxyCompactList}\small\item\em Get a int property. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a5cda9c71a56fada3c938e3be1cf64a91}{float \hyperlink{classTmx_1_1PropertySet_a5cda9c71a56fada3c938e3be1cf64a91}{Get\-Float\-Property} (const std\-::string \&name, float default\-Value=0.\-0f) const }\label{classTmx_1_1PropertySet_a5cda9c71a56fada3c938e3be1cf64a91}
+
+\begin{DoxyCompactList}\small\item\em Get a float property. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a307ae6b1427fba22a9304bf8ad1ef946}{std\-::string \hyperlink{classTmx_1_1PropertySet_a307ae6b1427fba22a9304bf8ad1ef946}{Get\-String\-Property} (const std\-::string \&name, std\-::string default\-Value=\char`\"{}\char`\"{}) const }\label{classTmx_1_1PropertySet_a307ae6b1427fba22a9304bf8ad1ef946}
+
+\begin{DoxyCompactList}\small\item\em Get a string property. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a0ba8ecdf58e289e2dee57ce38b9df20d}{bool \hyperlink{classTmx_1_1PropertySet_a0ba8ecdf58e289e2dee57ce38b9df20d}{Get\-Bool\-Property} (const std\-::string \&name, bool default\-Value=false) const }\label{classTmx_1_1PropertySet_a0ba8ecdf58e289e2dee57ce38b9df20d}
+
+\begin{DoxyCompactList}\small\item\em Get a bool property. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a02fb8f1bc34d169cc5a8fd148360c915}{\hyperlink{classTmx_1_1Color}{Tmx\-::\-Color} \hyperlink{classTmx_1_1PropertySet_a02fb8f1bc34d169cc5a8fd148360c915}{Get\-Color\-Property} (const std\-::string \&name, \hyperlink{classTmx_1_1Color}{Tmx\-::\-Color} default\-Value=\hyperlink{classTmx_1_1Color}{Tmx\-::\-Color}()) const }\label{classTmx_1_1PropertySet_a02fb8f1bc34d169cc5a8fd148360c915}
+
+\begin{DoxyCompactList}\small\item\em Get a color property. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a67b47b4e15e8df963911c798f792a2cc}{int \hyperlink{classTmx_1_1PropertySet_a67b47b4e15e8df963911c798f792a2cc}{Get\-Size} () const }\label{classTmx_1_1PropertySet_a67b47b4e15e8df963911c798f792a2cc}
+
+\begin{DoxyCompactList}\small\item\em Returns the amount of properties. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a9581ebb5a9683662887151f1e92b664a}{bool \hyperlink{classTmx_1_1PropertySet_a9581ebb5a9683662887151f1e92b664a}{Has\-Property} (const std\-::string \&name) const }\label{classTmx_1_1PropertySet_a9581ebb5a9683662887151f1e92b664a}
+
+\begin{DoxyCompactList}\small\item\em Checks if a property exists in the set. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a459999829fc14e72decdd60e378d0531}{const std\-::unordered\-\_\-map\\*
+$<$ std\-::string, \hyperlink{classTmx_1_1Property}{Property} $>$ \& \hyperlink{classTmx_1_1PropertySet_a459999829fc14e72decdd60e378d0531}{Get\-Property\-Map} () const }\label{classTmx_1_1PropertySet_a459999829fc14e72decdd60e378d0531}
+
+\begin{DoxyCompactList}\small\item\em Returns the unordered map of properties. \end{DoxyCompactList}\item 
+std\-::map$<$ std\-::string, \\*
+std\-::string $>$ \hyperlink{classTmx_1_1PropertySet_aa8929cdbcf9fc7a767ee98c33ab3130c}{Get\-List} () const 
+\begin{DoxyCompactList}\small\item\em Returns the S\-T\-L map of the properties. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1PropertySet_a5a107beb5e2dfc94dc61dfaa2abc1716}{bool \hyperlink{classTmx_1_1PropertySet_a5a107beb5e2dfc94dc61dfaa2abc1716}{Empty} () const }\label{classTmx_1_1PropertySet_a5a107beb5e2dfc94dc61dfaa2abc1716}
+
+\begin{DoxyCompactList}\small\item\em Returns whether there are no properties. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class contains a map of properties. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classTmx_1_1PropertySet_aa8929cdbcf9fc7a767ee98c33ab3130c}{\index{Tmx\-::\-Property\-Set@{Tmx\-::\-Property\-Set}!Get\-List@{Get\-List}}
+\index{Get\-List@{Get\-List}!Tmx::PropertySet@{Tmx\-::\-Property\-Set}}
+\subsubsection[{Get\-List}]{\setlength{\rightskip}{0pt plus 5cm}std\-::map$<$ std\-::string, std\-::string $>$ Tmx\-::\-Property\-Set\-::\-Get\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classTmx_1_1PropertySet_aa8929cdbcf9fc7a767ee98c33ab3130c}
+
+
+Returns the S\-T\-L map of the properties. 
+
+Deprecated, please use \hyperlink{classTmx_1_1PropertySet_a459999829fc14e72decdd60e378d0531}{Get\-Property\-Map()} instead. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Property\-Set.\-h\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Property\-Set.\-cpp\end{DoxyCompactItemize}

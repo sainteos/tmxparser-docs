@@ -1,0 +1,69 @@
+\hypertarget{classTmx_1_1Color}{\section{Tmx\-:\-:Color Class Reference}
+\label{classTmx_1_1Color}\index{Tmx\-::\-Color@{Tmx\-::\-Color}}
+}
+
+
+A class used for storing information about a color.  
+
+
+
+
+{\ttfamily \#include $<$Tmx\-Color.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTmx_1_1Color_ac462194348bb366f3b90d872d18486e2}{\hyperlink{classTmx_1_1Color_ac462194348bb366f3b90d872d18486e2}{Color} ()}\label{classTmx_1_1Color_ac462194348bb366f3b90d872d18486e2}
+
+\begin{DoxyCompactList}\small\item\em Default constructor for a fully transparent black color. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a29e71f2f41c56cbd07369f0d4c2e9531}{\hyperlink{classTmx_1_1Color_a29e71f2f41c56cbd07369f0d4c2e9531}{Color} (uint32\-\_\-t color)}\label{classTmx_1_1Color_a29e71f2f41c56cbd07369f0d4c2e9531}
+
+\begin{DoxyCompactList}\small\item\em Initialize the color with a 32 bit A\-R\-G\-B representation. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_ac2bfcd16e5a09544dc78de7e0bdda14e}{\hyperlink{classTmx_1_1Color_ac2bfcd16e5a09544dc78de7e0bdda14e}{Color} (uint8\-\_\-t r, uint8\-\_\-t g, uint8\-\_\-t b, uint8\-\_\-t a=255)}\label{classTmx_1_1Color_ac2bfcd16e5a09544dc78de7e0bdda14e}
+
+\begin{DoxyCompactList}\small\item\em Initialize the color with a red, green, blue and optionally alpha values. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a46358ffd46a11af3a7d6a01aee9a4d08}{\hyperlink{classTmx_1_1Color_a46358ffd46a11af3a7d6a01aee9a4d08}{Color} (const std\-::string \&str)}\label{classTmx_1_1Color_a46358ffd46a11af3a7d6a01aee9a4d08}
+
+\begin{DoxyCompactList}\small\item\em Initialize a color from a string hexadecimal representation in the format \char`\"{}\#\-A\-A\-R\-R\-G\-G\-B\-B\char`\"{} or \char`\"{}\#\-R\-R\-G\-G\-B\-B\char`\"{}. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a47a6ba4d9445bcdcafefc63f41c46d69}{\hyperlink{classTmx_1_1Color_a47a6ba4d9445bcdcafefc63f41c46d69}{Color} (const \hyperlink{classTmx_1_1Color}{Color} \&)=default}\label{classTmx_1_1Color_a47a6ba4d9445bcdcafefc63f41c46d69}
+
+\begin{DoxyCompactList}\small\item\em Default copy constructor. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_ac3b6cab5ff3052ff7253d70fc0ecba50}{\hyperlink{classTmx_1_1Color}{Color} \& \hyperlink{classTmx_1_1Color_ac3b6cab5ff3052ff7253d70fc0ecba50}{operator=} (const \hyperlink{classTmx_1_1Color}{Color} \&)=default}\label{classTmx_1_1Color_ac3b6cab5ff3052ff7253d70fc0ecba50}
+
+\begin{DoxyCompactList}\small\item\em Default asignment operator. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a7514ffb5992a35369655c2ca5e873012}{bool \hyperlink{classTmx_1_1Color_a7514ffb5992a35369655c2ca5e873012}{operator==} (const \hyperlink{classTmx_1_1Color}{Color} \&o)}\label{classTmx_1_1Color_a7514ffb5992a35369655c2ca5e873012}
+
+\begin{DoxyCompactList}\small\item\em Check if two colors have the exact same four components. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a82c3e3199f93d1ce9c2babadd6a9bf40}{bool \hyperlink{classTmx_1_1Color_a82c3e3199f93d1ce9c2babadd6a9bf40}{operator!=} (const \hyperlink{classTmx_1_1Color}{Color} \&o)}\label{classTmx_1_1Color_a82c3e3199f93d1ce9c2babadd6a9bf40}
+
+\begin{DoxyCompactList}\small\item\em Check if two colors are different. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a69661b363a65a82ccecf42209e4ca366}{uint8\-\_\-t \hyperlink{classTmx_1_1Color_a69661b363a65a82ccecf42209e4ca366}{Get\-Alpha} () const }\label{classTmx_1_1Color_a69661b363a65a82ccecf42209e4ca366}
+
+\begin{DoxyCompactList}\small\item\em Get the alpha component of the color. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_ac188b64dda182848df9469ee549bb26a}{uint8\-\_\-t \hyperlink{classTmx_1_1Color_ac188b64dda182848df9469ee549bb26a}{Get\-Red} () const }\label{classTmx_1_1Color_ac188b64dda182848df9469ee549bb26a}
+
+\begin{DoxyCompactList}\small\item\em Get the red component of the color. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a82a3f08a25d58d2d2f244a8347cf0bce}{uint8\-\_\-t \hyperlink{classTmx_1_1Color_a82a3f08a25d58d2d2f244a8347cf0bce}{Get\-Green} () const }\label{classTmx_1_1Color_a82a3f08a25d58d2d2f244a8347cf0bce}
+
+\begin{DoxyCompactList}\small\item\em Get the green component of the color. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_ab3dd06474d6403dbf9bd6bcd0d28a70a}{uint8\-\_\-t \hyperlink{classTmx_1_1Color_ab3dd06474d6403dbf9bd6bcd0d28a70a}{Get\-Blue} () const }\label{classTmx_1_1Color_ab3dd06474d6403dbf9bd6bcd0d28a70a}
+
+\begin{DoxyCompactList}\small\item\em Get the blue component of the color. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_aed77854b09267887bd289f4622e831d1}{bool \hyperlink{classTmx_1_1Color_aed77854b09267887bd289f4622e831d1}{Is\-Transparent} () const }\label{classTmx_1_1Color_aed77854b09267887bd289f4622e831d1}
+
+\begin{DoxyCompactList}\small\item\em Return true if the color is fully transparent (ie alpha value is 0). \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_a20ae331f91f72ca3db0068508a7b0317}{uint32\-\_\-t \hyperlink{classTmx_1_1Color_a20ae331f91f72ca3db0068508a7b0317}{To\-Int} () const }\label{classTmx_1_1Color_a20ae331f91f72ca3db0068508a7b0317}
+
+\begin{DoxyCompactList}\small\item\em Get the 32 bits integer representing the color. The 8 highest bits are for the alpha channel, then the red, the green and the blue. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Color_af20cd78adf89d3c3e81ee126e3a8be73}{std\-::string \hyperlink{classTmx_1_1Color_af20cd78adf89d3c3e81ee126e3a8be73}{To\-String} () const }\label{classTmx_1_1Color_af20cd78adf89d3c3e81ee126e3a8be73}
+
+\begin{DoxyCompactList}\small\item\em Get a string representation of the color in the format \char`\"{}\#\-A\-A\-R\-R\-G\-G\-B\-B\char`\"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class used for storing information about a color. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Color.\-h\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Color.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,91 @@
+\hypertarget{classTmx_1_1TileLayer}{\section{Tmx\-:\-:Tile\-Layer Class Reference}
+\label{classTmx_1_1TileLayer}\index{Tmx\-::\-Tile\-Layer@{Tmx\-::\-Tile\-Layer}}
+}
+
+
+Used for storing information about the tile ids for every tile layer.  
+
+
+
+
+{\ttfamily \#include $<$Tmx\-Tile\-Layer.\-h$>$}
+
+Inheritance diagram for Tmx\-:\-:Tile\-Layer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTmx_1_1TileLayer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTmx_1_1TileLayer_a695c876d416b231bd66e19266dd64f08}{\hyperlink{classTmx_1_1TileLayer_a695c876d416b231bd66e19266dd64f08}{Tile\-Layer} (const \hyperlink{classTmx_1_1Map}{Tmx\-::\-Map} $\ast$\-\_\-map)}\label{classTmx_1_1TileLayer_a695c876d416b231bd66e19266dd64f08}
+
+\begin{DoxyCompactList}\small\item\em Construct a \hyperlink{classTmx_1_1TileLayer}{Tile\-Layer} on the given map. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_abd369d79635deab99dc03182a49e5d78}{void \hyperlink{classTmx_1_1TileLayer_abd369d79635deab99dc03182a49e5d78}{Parse} (const tinyxml2\-::\-X\-M\-L\-Node $\ast$tile\-Layer\-Node)}\label{classTmx_1_1TileLayer_abd369d79635deab99dc03182a49e5d78}
+
+\begin{DoxyCompactList}\small\item\em Parse a tile layer node. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_ae3902bf98b97d38f81a44cc634177042}{unsigned \hyperlink{classTmx_1_1TileLayer_ae3902bf98b97d38f81a44cc634177042}{Get\-Tile\-Id} (int x, int y) const }\label{classTmx_1_1TileLayer_ae3902bf98b97d38f81a44cc634177042}
+
+\begin{DoxyCompactList}\small\item\em Pick a specific tile id from the list. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_a5ca43217676bfb8b5f45847587dc4318}{unsigned \hyperlink{classTmx_1_1TileLayer_a5ca43217676bfb8b5f45847587dc4318}{Get\-Tile\-Gid} (int x, int y) const }\label{classTmx_1_1TileLayer_a5ca43217676bfb8b5f45847587dc4318}
+
+\begin{DoxyCompactList}\small\item\em Pick a specific tile gid from the list. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_a3317d70d127a4f1c3101a61f4c38b100}{int \hyperlink{classTmx_1_1TileLayer_a3317d70d127a4f1c3101a61f4c38b100}{Get\-Tile\-Tileset\-Index} (int x, int y) const }\label{classTmx_1_1TileLayer_a3317d70d127a4f1c3101a61f4c38b100}
+
+\begin{DoxyCompactList}\small\item\em Get the tileset index for a tileset from the list. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_a65cf0f77fcebdb13a4d8a58f6af35634}{bool \hyperlink{classTmx_1_1TileLayer_a65cf0f77fcebdb13a4d8a58f6af35634}{Is\-Tile\-Flipped\-Horizontally} (int x, int y) const }\label{classTmx_1_1TileLayer_a65cf0f77fcebdb13a4d8a58f6af35634}
+
+\begin{DoxyCompactList}\small\item\em Get whether a tile is flipped horizontally. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_a318e88a21c62a5bc642162dcc0b880c8}{bool \hyperlink{classTmx_1_1TileLayer_a318e88a21c62a5bc642162dcc0b880c8}{Is\-Tile\-Flipped\-Vertically} (int x, int y) const }\label{classTmx_1_1TileLayer_a318e88a21c62a5bc642162dcc0b880c8}
+
+\begin{DoxyCompactList}\small\item\em Get whether a tile is flipped vertically. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_a151af08626fb9edee291dc20f431c130}{bool \hyperlink{classTmx_1_1TileLayer_a151af08626fb9edee291dc20f431c130}{Is\-Tile\-Flipped\-Diagonally} (int x, int y) const }\label{classTmx_1_1TileLayer_a151af08626fb9edee291dc20f431c130}
+
+\begin{DoxyCompactList}\small\item\em Get whether a tile is flipped diagonally. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_aa945617d235b87e9b532ddcad2f88af0}{const \hyperlink{structTmx_1_1MapTile}{Tmx\-::\-Map\-Tile} \& \hyperlink{classTmx_1_1TileLayer_aa945617d235b87e9b532ddcad2f88af0}{Get\-Tile} (int x, int y) const }\label{classTmx_1_1TileLayer_aa945617d235b87e9b532ddcad2f88af0}
+
+\begin{DoxyCompactList}\small\item\em Get the tile at the given position. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1TileLayer_a26aa35c451cdca8dce826167717280e0}{const \hyperlink{structTmx_1_1MapTile}{Tmx\-::\-Map\-Tile} \& \hyperlink{classTmx_1_1TileLayer_a26aa35c451cdca8dce826167717280e0}{Get\-Tile} (int index) const }\label{classTmx_1_1TileLayer_a26aa35c451cdca8dce826167717280e0}
+
+\begin{DoxyCompactList}\small\item\em Get a tile by its index. \end{DoxyCompactList}\item 
+Tmx\-::\-Tile\-Layer\-Encoding\-Type \hyperlink{classTmx_1_1TileLayer_a7781153483bb3e1c8928dab0503b3bda}{Get\-Encoding} () const 
+\begin{DoxyCompactList}\small\item\em Get the type of encoding that was used for parsing the tile layer data. \end{DoxyCompactList}\item 
+Tmx\-::\-Tile\-Layer\-Compression\-Type \hyperlink{classTmx_1_1TileLayer_a94a5548e7784fb064179d7164ae563ce}{Get\-Compression} () const 
+\begin{DoxyCompactList}\small\item\em Get the type of compression that was used for parsing the tile layer data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Used for storing information about the tile ids for every tile layer. 
+
+This class also have a property set. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classTmx_1_1TileLayer_a94a5548e7784fb064179d7164ae563ce}{\index{Tmx\-::\-Tile\-Layer@{Tmx\-::\-Tile\-Layer}!Get\-Compression@{Get\-Compression}}
+\index{Get\-Compression@{Get\-Compression}!Tmx::TileLayer@{Tmx\-::\-Tile\-Layer}}
+\subsubsection[{Get\-Compression}]{\setlength{\rightskip}{0pt plus 5cm}Tmx\-::\-Tile\-Layer\-Compression\-Type Tmx\-::\-Tile\-Layer\-::\-Get\-Compression (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classTmx_1_1TileLayer_a94a5548e7784fb064179d7164ae563ce}
+
+
+Get the type of compression that was used for parsing the tile layer data. 
+
+See\-: Tile\-Layer\-Compression\-Type \hypertarget{classTmx_1_1TileLayer_a7781153483bb3e1c8928dab0503b3bda}{\index{Tmx\-::\-Tile\-Layer@{Tmx\-::\-Tile\-Layer}!Get\-Encoding@{Get\-Encoding}}
+\index{Get\-Encoding@{Get\-Encoding}!Tmx::TileLayer@{Tmx\-::\-Tile\-Layer}}
+\subsubsection[{Get\-Encoding}]{\setlength{\rightskip}{0pt plus 5cm}Tmx\-::\-Tile\-Layer\-Encoding\-Type Tmx\-::\-Tile\-Layer\-::\-Get\-Encoding (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classTmx_1_1TileLayer_a7781153483bb3e1c8928dab0503b3bda}
+
+
+Get the type of encoding that was used for parsing the tile layer data. 
+
+See\-: Tile\-Layer\-Encoding\-Type 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Tile\-Layer.\-h\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Tile\-Layer.\-cpp\end{DoxyCompactItemize}

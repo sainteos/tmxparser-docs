@@ -1,0 +1,75 @@
+\hypertarget{classTmx_1_1Layer}{\section{Tmx\-:\-:Layer Class Reference}
+\label{classTmx_1_1Layer}\index{Tmx\-::\-Layer@{Tmx\-::\-Layer}}
+}
+
+
+Base class for other layer types.  
+
+
+
+
+{\ttfamily \#include $<$Tmx\-Layer.\-h$>$}
+
+Inheritance diagram for Tmx\-:\-:Layer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTmx_1_1Layer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTmx_1_1Layer_a6984126fbda7aecb74f4a124740e8672}{\hyperlink{classTmx_1_1Layer_a6984126fbda7aecb74f4a124740e8672}{Layer} (const \hyperlink{classTmx_1_1Map}{Tmx\-::\-Map} $\ast$\-\_\-map, const std\-::string \-\_\-name, const int \-\_\-x, const int \-\_\-y, const int \-\_\-width, const int \-\_\-height, const float \-\_\-opacity, const bool \-\_\-visible, const Layer\-Type \-\_\-layer\-Type)}\label{classTmx_1_1Layer_a6984126fbda7aecb74f4a124740e8672}
+
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{classTmx_1_1Layer}{Layer}. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_adbc29ca32a7d2172f47787d93187401c}{virtual void \hyperlink{classTmx_1_1Layer_adbc29ca32a7d2172f47787d93187401c}{Parse} (const tinyxml2\-::\-X\-M\-L\-Node $\ast$layer\-Node)=0}\label{classTmx_1_1Layer_adbc29ca32a7d2172f47787d93187401c}
+
+\begin{DoxyCompactList}\small\item\em Parse a layer element. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a88f85f9315074c6c57fedc9352ac326c}{const \hyperlink{classTmx_1_1Map}{Tmx\-::\-Map} $\ast$ \hyperlink{classTmx_1_1Layer_a88f85f9315074c6c57fedc9352ac326c}{map\-Get\-Map} () const }\label{classTmx_1_1Layer_a88f85f9315074c6c57fedc9352ac326c}
+
+\begin{DoxyCompactList}\small\item\em Get the pointer to the parent map. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a3896ff18af7bf93d73f7a42cf7c34f14}{const std\-::string \& \hyperlink{classTmx_1_1Layer_a3896ff18af7bf93d73f7a42cf7c34f14}{Get\-Name} () const }\label{classTmx_1_1Layer_a3896ff18af7bf93d73f7a42cf7c34f14}
+
+\begin{DoxyCompactList}\small\item\em Get the name of the layer. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_afc3899eaffe2425ad31ea3035a34c2ca}{int \hyperlink{classTmx_1_1Layer_afc3899eaffe2425ad31ea3035a34c2ca}{Get\-X} () const }\label{classTmx_1_1Layer_afc3899eaffe2425ad31ea3035a34c2ca}
+
+\begin{DoxyCompactList}\small\item\em Get the value of the x attribute of the layer. Means different things for different layer types. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_aa65a3ed0d53c60ab0356e256b3553c3d}{int \hyperlink{classTmx_1_1Layer_aa65a3ed0d53c60ab0356e256b3553c3d}{Get\-Y} () const }\label{classTmx_1_1Layer_aa65a3ed0d53c60ab0356e256b3553c3d}
+
+\begin{DoxyCompactList}\small\item\em Get the value of the y attribute of the layer. Means different things for different layer types. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a199a01de350b86975e9473a9aa491de4}{int \hyperlink{classTmx_1_1Layer_a199a01de350b86975e9473a9aa491de4}{Get\-Width} () const }\label{classTmx_1_1Layer_a199a01de350b86975e9473a9aa491de4}
+
+\begin{DoxyCompactList}\small\item\em Get the width of the layer, in tiles. Only used in tile layers. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a6f8cf75b8249eb4c1e62256cde828183}{int \hyperlink{classTmx_1_1Layer_a6f8cf75b8249eb4c1e62256cde828183}{Get\-Height} () const }\label{classTmx_1_1Layer_a6f8cf75b8249eb4c1e62256cde828183}
+
+\begin{DoxyCompactList}\small\item\em Get the height of the layer, in tiles. Only used in tile layers. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a093f75d1b7e5afbdf4ce3c3efcdc8182}{float \hyperlink{classTmx_1_1Layer_a093f75d1b7e5afbdf4ce3c3efcdc8182}{Get\-Opacity} () const }\label{classTmx_1_1Layer_a093f75d1b7e5afbdf4ce3c3efcdc8182}
+
+\begin{DoxyCompactList}\small\item\em Get the opacity of the layer. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a231832ce15394aa1c6b1a61db561a8dd}{bool \hyperlink{classTmx_1_1Layer_a231832ce15394aa1c6b1a61db561a8dd}{Is\-Visible} () const }\label{classTmx_1_1Layer_a231832ce15394aa1c6b1a61db561a8dd}
+
+\begin{DoxyCompactList}\small\item\em Get the visibility of the layer. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_ac404e49efb50d98afcb468283dc20640}{const \hyperlink{classTmx_1_1PropertySet}{Tmx\-::\-Property\-Set} \& \hyperlink{classTmx_1_1Layer_ac404e49efb50d98afcb468283dc20640}{Get\-Properties} () const }\label{classTmx_1_1Layer_ac404e49efb50d98afcb468283dc20640}
+
+\begin{DoxyCompactList}\small\item\em Get the property set. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a6d77cf7f59bf82be8c97d7d6ab26bfae}{int \hyperlink{classTmx_1_1Layer_a6d77cf7f59bf82be8c97d7d6ab26bfae}{Get\-Z\-Order} () const }\label{classTmx_1_1Layer_a6d77cf7f59bf82be8c97d7d6ab26bfae}
+
+\begin{DoxyCompactList}\small\item\em Get the zorder of the layer. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_ac467e3cb03d7e9a1d8199d4b33f5a78b}{void \hyperlink{classTmx_1_1Layer_ac467e3cb03d7e9a1d8199d4b33f5a78b}{Set\-Z\-Order} (int z)}\label{classTmx_1_1Layer_ac467e3cb03d7e9a1d8199d4b33f5a78b}
+
+\begin{DoxyCompactList}\small\item\em Set the zorder of the layer. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_a27687188f81c797c3a3c8a62bf7282ff}{int \hyperlink{classTmx_1_1Layer_a27687188f81c797c3a3c8a62bf7282ff}{Get\-Parse\-Order} () const }\label{classTmx_1_1Layer_a27687188f81c797c3a3c8a62bf7282ff}
+
+\begin{DoxyCompactList}\small\item\em Get the parse order of the layer. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Layer_ab34f5b1a9ad759005b5bdb88974b233f}{Tmx\-::\-Layer\-Type \hyperlink{classTmx_1_1Layer_ab34f5b1a9ad759005b5bdb88974b233f}{Get\-Layer\-Type} () const }\label{classTmx_1_1Layer_ab34f5b1a9ad759005b5bdb88974b233f}
+
+\begin{DoxyCompactList}\small\item\em Get the type of the layer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class for other layer types. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Layer.\-h\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Layer.\-cpp\end{DoxyCompactItemize}

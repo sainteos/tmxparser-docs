@@ -1,0 +1,8 @@
+PROJECT_NAME = "tmxparser"
+PROJECT_NUMBER = "2.1.0"
+OUTPUT_DIRECTORY = /home/travis/build/sainteos/tmxparser/build/doc
+INPUT = /home/travis/build/sainteos/tmxparser/src /home/travis/build/sainteos/tmxparser/doc /home/travis/build/sainteos/tmxparser/README.md /home/travis/build/sainteos/tmxparser/CHANGELOG.md
+EXCLUDE = /home/travis/build/sainteos/tmxparser/src/miniz.c
+USE_MDFILE_AS_MAINPAGE = /home/travis/build/sainteos/tmxparser/README.md
+EXAMPLE_PATH = /home/travis/build/sainteos/tmxparser/examples
+JAVADOC_AUTOBRIEF = YES

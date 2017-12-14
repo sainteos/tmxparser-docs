@@ -1,0 +1,79 @@
+\hypertarget{classTmx_1_1Tile}{\section{Tmx\-:\-:Tile Class Reference}
+\label{classTmx_1_1Tile}\index{Tmx\-::\-Tile@{Tmx\-::\-Tile}}
+}
+
+
+Class to contain information about every tile in the tileset/tiles element.  
+
+
+
+
+{\ttfamily \#include $<$Tmx\-Tile.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTmx_1_1Tile_ae3320f562455e8a92879c18aaae353ac}{\hyperlink{classTmx_1_1Tile_ae3320f562455e8a92879c18aaae353ac}{Tile} (int id)}\label{classTmx_1_1Tile_ae3320f562455e8a92879c18aaae353ac}
+
+\begin{DoxyCompactList}\small\item\em Construct a new tile with the given id. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_a488334cb54d1d5735f636eb3b198d901}{void \hyperlink{classTmx_1_1Tile_a488334cb54d1d5735f636eb3b198d901}{Parse} (const tinyxml2\-::\-X\-M\-L\-Node $\ast$tile\-Node)}\label{classTmx_1_1Tile_a488334cb54d1d5735f636eb3b198d901}
+
+\begin{DoxyCompactList}\small\item\em Parse a tile node. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_a5b8c40fa159f3e52e8f74a2fa8a17b1f}{int \hyperlink{classTmx_1_1Tile_a5b8c40fa159f3e52e8f74a2fa8a17b1f}{Get\-Id} () const }\label{classTmx_1_1Tile_a5b8c40fa159f3e52e8f74a2fa8a17b1f}
+
+\begin{DoxyCompactList}\small\item\em Get the Id. (relative to the tileset) \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_ab8993fd3a43772a14d78c0ae9a142f2a}{bool \hyperlink{classTmx_1_1Tile_ab8993fd3a43772a14d78c0ae9a142f2a}{Is\-Animated} () const }\label{classTmx_1_1Tile_ab8993fd3a43772a14d78c0ae9a142f2a}
+
+\begin{DoxyCompactList}\small\item\em Returns true if the tile is animated (has one or more animation frames) \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_a622a7fd2afa260652aed512e09e988dc}{int \hyperlink{classTmx_1_1Tile_a622a7fd2afa260652aed512e09e988dc}{Get\-Frame\-Count} () const }\label{classTmx_1_1Tile_a622a7fd2afa260652aed512e09e988dc}
+
+\begin{DoxyCompactList}\small\item\em Returns the number of frames of the animation. If the tile is not animated, returns 0. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classTmx_1_1Tile_a06cd238d0fd53822ef1487498a890944}{Get\-Total\-Duration} () const 
+\begin{DoxyCompactList}\small\item\em Returns the total duration of the animation, in milliseconds, or 0 if the tile is not animated. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_aa7a6ad2d344f32f88e1a88c06edc4c3f}{const \hyperlink{classTmx_1_1Image}{Tmx\-::\-Image} $\ast$ \hyperlink{classTmx_1_1Tile_aa7a6ad2d344f32f88e1a88c06edc4c3f}{Get\-Image} () const }\label{classTmx_1_1Tile_aa7a6ad2d344f32f88e1a88c06edc4c3f}
+
+\begin{DoxyCompactList}\small\item\em Retrurns the tile image if defined. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_af46d006ea914db476b90d0866a12564d}{const std\-::vector\\*
+$<$ \hyperlink{classTmx_1_1AnimationFrame}{Animation\-Frame} $>$ \& \hyperlink{classTmx_1_1Tile_af46d006ea914db476b90d0866a12564d}{Get\-Frames} () const }\label{classTmx_1_1Tile_af46d006ea914db476b90d0866a12564d}
+
+\begin{DoxyCompactList}\small\item\em Returns the frames of the animation. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_aa5cc1be340fa012e16c6ed62fb84f908}{const \hyperlink{classTmx_1_1PropertySet}{Tmx\-::\-Property\-Set} \& \hyperlink{classTmx_1_1Tile_aa5cc1be340fa012e16c6ed62fb84f908}{Get\-Properties} () const }\label{classTmx_1_1Tile_aa5cc1be340fa012e16c6ed62fb84f908}
+
+\begin{DoxyCompactList}\small\item\em Get a set of properties regarding the tile. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_a8b0aee9d016fbb3c912b0ac7153a2333}{std\-::vector$<$ \hyperlink{classTmx_1_1Object}{Tmx\-::\-Object} $\ast$ $>$ \hyperlink{classTmx_1_1Tile_a8b0aee9d016fbb3c912b0ac7153a2333}{Get\-Objects} () const }\label{classTmx_1_1Tile_a8b0aee9d016fbb3c912b0ac7153a2333}
+
+\begin{DoxyCompactList}\small\item\em Get set of Collision Objects. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_a31a59f592e9a2ec96b57aa77eca98bf3}{bool \hyperlink{classTmx_1_1Tile_a31a59f592e9a2ec96b57aa77eca98bf3}{Has\-Objects} () const }\label{classTmx_1_1Tile_a31a59f592e9a2ec96b57aa77eca98bf3}
+
+\begin{DoxyCompactList}\small\item\em Returns true if tile has Collision Objects. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_a4086d0b8b91fa9e27c3d3f710c7ad50e}{const \hyperlink{classTmx_1_1Object}{Tmx\-::\-Object} $\ast$ \hyperlink{classTmx_1_1Tile_a4086d0b8b91fa9e27c3d3f710c7ad50e}{Get\-Object} (int index) const }\label{classTmx_1_1Tile_a4086d0b8b91fa9e27c3d3f710c7ad50e}
+
+\begin{DoxyCompactList}\small\item\em Get a single object. \end{DoxyCompactList}\item 
+\hypertarget{classTmx_1_1Tile_add455b756c2ed715c03aada301d9e5c9}{int \hyperlink{classTmx_1_1Tile_add455b756c2ed715c03aada301d9e5c9}{Get\-Num\-Objects} () const }\label{classTmx_1_1Tile_add455b756c2ed715c03aada301d9e5c9}
+
+\begin{DoxyCompactList}\small\item\em Get the number of objects in the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to contain information about every tile in the tileset/tiles element. 
+
+It may expand if there are more elements or attributes added into the the tile element. This class also contains a property set. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classTmx_1_1Tile_a06cd238d0fd53822ef1487498a890944}{\index{Tmx\-::\-Tile@{Tmx\-::\-Tile}!Get\-Total\-Duration@{Get\-Total\-Duration}}
+\index{Get\-Total\-Duration@{Get\-Total\-Duration}!Tmx::Tile@{Tmx\-::\-Tile}}
+\subsubsection[{Get\-Total\-Duration}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Tmx\-::\-Tile\-::\-Get\-Total\-Duration (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classTmx_1_1Tile_a06cd238d0fd53822ef1487498a890944}
+
+
+Returns the total duration of the animation, in milliseconds, or 0 if the tile is not animated. 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Tile.\-h\item 
+/home/travis/build/sainteos/tmxparser/src/Tmx\-Tile.\-cpp\end{DoxyCompactItemize}
