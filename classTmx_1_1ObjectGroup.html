@@ -115,6 +115,10 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1ObjectGroup.html#a99d89c89cd3262d19f4e30d6ba04667d">ObjectGroup</a> (const <a class="el" href="classTmx_1_1Map.html">Tmx::Map</a> *_map)</td></tr>
 <tr class="memdesc:a99d89c89cd3262d19f4e30d6ba04667d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classTmx_1_1ObjectGroup.html" title="A class used for holding a list of objects. ">ObjectGroup</a>. <br/></td></tr>
 <tr class="separator:a99d89c89cd3262d19f4e30d6ba04667d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0582d22f03335da57cd9785edc7121a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0582d22f03335da57cd9785edc7121a0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1ObjectGroup.html#a0582d22f03335da57cd9785edc7121a0">ObjectGroup</a> (const <a class="el" href="classTmx_1_1Tile.html">Tmx::Tile</a> *_tile)</td></tr>
+<tr class="memdesc:a0582d22f03335da57cd9785edc7121a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classTmx_1_1ObjectGroup.html" title="A class used for holding a list of objects. ">ObjectGroup</a> used by a <a class="el" href="classTmx_1_1Tile.html" title="Class to contain information about every tile in the tileset/tiles element. ">Tile</a>. <br/></td></tr>
+<tr class="separator:a0582d22f03335da57cd9785edc7121a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a641f391664b74b67a3e46489750589c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a641f391664b74b67a3e46489750589c6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1ObjectGroup.html#a641f391664b74b67a3e46489750589c6">Parse</a> (const tinyxml2::XMLNode *objectGroupNode)</td></tr>
 <tr class="memdesc:a641f391664b74b67a3e46489750589c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse an objectgroup node. <br/></td></tr>
@@ -135,11 +139,19 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 const std::vector&lt; <a class="el" href="classTmx_1_1Object.html">Tmx::Object</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1ObjectGroup.html#a7581c383af6ed4f4e7d3a4dda3b89c44">GetObjects</a> () const </td></tr>
 <tr class="memdesc:a7581c383af6ed4f4e7d3a4dda3b89c44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the whole list of objects. <br/></td></tr>
 <tr class="separator:a7581c383af6ed4f4e7d3a4dda3b89c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc23bf23f959c6c872621c5e95b6265"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cc23bf23f959c6c872621c5e95b6265"></a>
+const <a class="el" href="classTmx_1_1PropertySet.html">Tmx::PropertySet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1ObjectGroup.html#a7cc23bf23f959c6c872621c5e95b6265">GetProperties</a> () const </td></tr>
+<tr class="memdesc:a7cc23bf23f959c6c872621c5e95b6265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the property set. <br/></td></tr>
+<tr class="separator:a7cc23bf23f959c6c872621c5e95b6265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classTmx_1_1Layer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classTmx_1_1Layer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classTmx_1_1Layer.html">Tmx::Layer</a></td></tr>
 <tr class="memitem:a6984126fbda7aecb74f4a124740e8672 inherit pub_methods_classTmx_1_1Layer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6984126fbda7aecb74f4a124740e8672"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1Layer.html#a6984126fbda7aecb74f4a124740e8672">Layer</a> (const <a class="el" href="classTmx_1_1Map.html">Tmx::Map</a> *_map, const std::string _name, const int _x, const int _y, const int _width, const int _height, const float _opacity, const bool _visible, const LayerType _layerType)</td></tr>
-<tr class="memdesc:a6984126fbda7aecb74f4a124740e8672 inherit pub_methods_classTmx_1_1Layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classTmx_1_1Layer.html" title="Base class for other layer types. ">Layer</a>. <br/></td></tr>
+<tr class="memdesc:a6984126fbda7aecb74f4a124740e8672 inherit pub_methods_classTmx_1_1Layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classTmx_1_1Layer.html" title="Base class for other layer types. ">Layer</a> used by a map's objectgroup. <br/></td></tr>
 <tr class="separator:a6984126fbda7aecb74f4a124740e8672 inherit pub_methods_classTmx_1_1Layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab29120ce4695f1534209c4f1b4d981fa inherit pub_methods_classTmx_1_1Layer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab29120ce4695f1534209c4f1b4d981fa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1Layer.html#ab29120ce4695f1534209c4f1b4d981fa">Layer</a> (const <a class="el" href="classTmx_1_1Tile.html">Tmx::Tile</a> *_tile, const std::string _name, const int _x, const int _y, const int _width, const int _height, const float _opacity, const bool _visible, const LayerType _layerType)</td></tr>
+<tr class="memdesc:ab29120ce4695f1534209c4f1b4d981fa inherit pub_methods_classTmx_1_1Layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new layer used by a tile's objectgroup. <br/></td></tr>
+<tr class="separator:ab29120ce4695f1534209c4f1b4d981fa inherit pub_methods_classTmx_1_1Layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f85f9315074c6c57fedc9352ac326c inherit pub_methods_classTmx_1_1Layer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88f85f9315074c6c57fedc9352ac326c"></a>
 const <a class="el" href="classTmx_1_1Map.html">Tmx::Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTmx_1_1Layer.html#a88f85f9315074c6c57fedc9352ac326c">mapGetMap</a> () const </td></tr>
 <tr class="memdesc:a88f85f9315074c6c57fedc9352ac326c inherit pub_methods_classTmx_1_1Layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pointer to the parent map. <br/></td></tr>
@@ -203,7 +215,7 @@ Tmx::LayerType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 22 2017 02:03:56 for tmxparser by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 22 2017 03:06:27 for tmxparser by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
