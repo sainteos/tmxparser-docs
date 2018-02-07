@@ -7,6 +7,7 @@ var searchData=
   ['getboolvalue',['GetBoolValue',['../classTmx_1_1Property.html#a6d5936badc6223e1d6d8ffc1427e3508',1,'Tmx::Property']]],
   ['getcenterx',['GetCenterX',['../classTmx_1_1Ellipse.html#a8e1ef78d1dfba155c27f9964760d4b59',1,'Tmx::Ellipse']]],
   ['getcentery',['GetCenterY',['../classTmx_1_1Ellipse.html#aaae950d8553312067c6187263c320225',1,'Tmx::Ellipse']]],
+  ['getchildren',['GetChildren',['../classTmx_1_1GroupLayer.html#af25ca0ff8a0b159475fb9cc4359ffab1',1,'Tmx::GroupLayer']]],
   ['getcolor',['GetColor',['../classTmx_1_1ObjectGroup.html#a67ac49ea10129de947f7fe971727c65f',1,'Tmx::ObjectGroup']]],
   ['getcolorproperty',['GetColorProperty',['../classTmx_1_1PropertySet.html#a02fb8f1bc34d169cc5a8fd148360c915',1,'Tmx::PropertySet']]],
   ['getcolorvalue',['GetColorValue',['../classTmx_1_1Property.html#a8cdbef1757c46929ae796c6761422b5a',1,'Tmx::Property']]],
@@ -52,6 +53,8 @@ var searchData=
   ['getobjectgroup',['GetObjectGroup',['../classTmx_1_1Map.html#a46c05a71369d22cfa55367b07d771b11',1,'Tmx::Map']]],
   ['getobjectgroups',['GetObjectGroups',['../classTmx_1_1Map.html#adcd29ef72e9649bd05a3579e9c61ed68',1,'Tmx::Map']]],
   ['getobjects',['GetObjects',['../classTmx_1_1ObjectGroup.html#a7581c383af6ed4f4e7d3a4dda3b89c44',1,'Tmx::ObjectGroup::GetObjects()'],['../classTmx_1_1Tile.html#a8b0aee9d016fbb3c912b0ac7153a2333',1,'Tmx::Tile::GetObjects()']]],
+  ['getoffsetx',['GetOffsetX',['../classTmx_1_1GroupLayer.html#a5b9385e32fcba0b9dfd1ff120e5e7e26',1,'Tmx::GroupLayer']]],
+  ['getoffsety',['GetOffsetY',['../classTmx_1_1GroupLayer.html#a18a459d899189617091e3847be84c413',1,'Tmx::GroupLayer']]],
   ['getopacity',['GetOpacity',['../classTmx_1_1Layer.html#a093f75d1b7e5afbdf4ce3c3efcdc8182',1,'Tmx::Layer']]],
   ['getorientation',['GetOrientation',['../classTmx_1_1Map.html#a7cc9f5a5d57b0d118d12f759e1b479b6',1,'Tmx::Map']]],
   ['getparseorder',['GetParseOrder',['../classTmx_1_1Layer.html#a27687188f81c797c3a3c8a62bf7282ff',1,'Tmx::Layer']]],
@@ -92,5 +95,6 @@ var searchData=
   ['getwidth',['GetWidth',['../classTmx_1_1Image.html#a0a85449377d63b40ed4b5cf406985e0a',1,'Tmx::Image::GetWidth()'],['../classTmx_1_1Layer.html#a199a01de350b86975e9473a9aa491de4',1,'Tmx::Layer::GetWidth()'],['../classTmx_1_1Map.html#a725e44f4122460bd8aafecc1849a2163',1,'Tmx::Map::GetWidth()'],['../classTmx_1_1Object.html#a5f34e674147cd764e874e0f59c3427fc',1,'Tmx::Object::GetWidth()']]],
   ['getx',['GetX',['../classTmx_1_1Layer.html#afc3899eaffe2425ad31ea3035a34c2ca',1,'Tmx::Layer::GetX()'],['../classTmx_1_1Object.html#a4491f0abc015b7fb1c845bae7dc6008d',1,'Tmx::Object::GetX()'],['../classTmx_1_1TileOffset.html#a7488905c51bb9516609e256838e61a95',1,'Tmx::TileOffset::GetX()']]],
   ['gety',['GetY',['../classTmx_1_1Layer.html#aa65a3ed0d53c60ab0356e256b3553c3d',1,'Tmx::Layer::GetY()'],['../classTmx_1_1Object.html#af4417421feb6732d973e2aa0771f9b1e',1,'Tmx::Object::GetY()'],['../classTmx_1_1TileOffset.html#aa17366bd769a6c807c1ca8d5b02581f0',1,'Tmx::TileOffset::GetY()']]],
-  ['getzorder',['GetZOrder',['../classTmx_1_1Layer.html#a6d77cf7f59bf82be8c97d7d6ab26bfae',1,'Tmx::Layer']]]
+  ['getzorder',['GetZOrder',['../classTmx_1_1Layer.html#a6d77cf7f59bf82be8c97d7d6ab26bfae',1,'Tmx::Layer']]],
+  ['grouplayer',['GroupLayer',['../classTmx_1_1GroupLayer.html#a7c773d98ec765597d959c02a0653ed1c',1,'Tmx::GroupLayer']]]
 ];

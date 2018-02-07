@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['object',['Object',['../classTmx_1_1Object.html',1,'Tmx']]],
-  ['objectgroup',['ObjectGroup',['../classTmx_1_1ObjectGroup.html',1,'Tmx']]]
+  ['map',['Map',['../classTmx_1_1Map.html',1,'Tmx']]],
+  ['maptile',['MapTile',['../structTmx_1_1MapTile.html',1,'Tmx']]]
 ];

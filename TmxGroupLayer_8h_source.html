@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>tmxparser: /home/travis/build/sainteos/tmxparser/src/TmxImageLayer.h Source File</title>
+<title>tmxparser: /home/travis/build/sainteos/tmxparser/src/TmxGroupLayer.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,11 +85,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">TmxImageLayer.h</div>  </div>
+<div class="title">TmxGroupLayer.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2010-2014, Tamir Atias</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2018, Adaleigh Martin</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Redistribution and use in source and binary forms, with or without</span></div>
@@ -119,34 +119,51 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;TmxLayer.h&quot;</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;TmxPropertySet.h&quot;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span>Tmx </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span>Tmx</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">class </span>Map;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">class </span>Image;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">//-------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classTmx_1_1ImageLayer.html">   41</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classTmx_1_1ImageLayer.html">ImageLayer</a> : <span class="keyword">public</span> <a class="code" href="classTmx_1_1Layer.html">Tmx::Layer</a></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="classTmx_1_1ImageLayer.html#adac463694d851f0468723318ad511264">ImageLayer</a>(<span class="keyword">const</span> <a class="code" href="classTmx_1_1Map.html">Tmx::Map</a> *_map);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        ~<a class="code" href="classTmx_1_1ImageLayer.html">ImageLayer</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classTmx_1_1ImageLayer.html#a5441c6a1393d0b9bea4356f048f8a5c8">Parse</a>(<span class="keyword">const</span> tinyxml2::XMLNode *imageLayerNode);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classTmx_1_1ImageLayer.html#a9963adeceff59ea92933755f13ce8fa9">   53</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classTmx_1_1Image.html">Tmx::Image</a>* <a class="code" href="classTmx_1_1ImageLayer.html#a9963adeceff59ea92933755f13ce8fa9">GetImage</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> image; }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="classTmx_1_1Image.html">Tmx::Image</a>* image;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    };</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">//-------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classTmx_1_1GroupLayer.html">   40</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classTmx_1_1GroupLayer.html">GroupLayer</a> : <span class="keyword">public</span> <a class="code" href="classTmx_1_1Layer.html">Tmx::Layer</a></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classTmx_1_1GroupLayer.html#a7c773d98ec765597d959c02a0653ed1c">GroupLayer</a>(<span class="keyword">const</span> <a class="code" href="classTmx_1_1Map.html">Tmx::Map</a> *_map);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ~<a class="code" href="classTmx_1_1GroupLayer.html">GroupLayer</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classTmx_1_1GroupLayer.html#af3af3bd8989ea5a6648e3d07e0e352b4">Parse</a>(<span class="keyword">const</span> tinyxml2::XMLNode *groupLayerNode);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classTmx_1_1GroupLayer.html#ad2b8f64f51197e916b33d0187f2542f2">AddChild</a>(<a class="code" href="classTmx_1_1Layer.html">Tmx::Layer</a>* childLayer);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classTmx_1_1Layer.html">Tmx::Layer</a>* GetChild(<span class="keyword">const</span> <span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">const</span> std::vector&lt;Tmx::Layer*&gt; <a class="code" href="classTmx_1_1GroupLayer.html#af25ca0ff8a0b159475fb9cc4359ffab1">GetChildren</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">int</span> GetNumChildren() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classTmx_1_1GroupLayer.html#a7b8aceb820ea889558acdd0933c0a9e5">SetOffset</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> offsetX, <span class="keyword">const</span> <span class="keywordtype">int</span> offsetY);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classTmx_1_1GroupLayer.html#a5b9385e32fcba0b9dfd1ff120e5e7e26">GetOffsetX</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classTmx_1_1GroupLayer.html#a18a459d899189617091e3847be84c413">GetOffsetY</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        std::vector&lt;Tmx::Layer*&gt; children;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">int</span> offsetX;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">int</span> offsetY;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    };</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
 <div class="ttc" id="classTmx_1_1Layer_html"><div class="ttname"><a href="classTmx_1_1Layer.html">Tmx::Layer</a></div><div class="ttdoc">Base class for other layer types. </div><div class="ttdef"><b>Definition:</b> TmxLayer.h:54</div></div>
-<div class="ttc" id="classTmx_1_1ImageLayer_html_a9963adeceff59ea92933755f13ce8fa9"><div class="ttname"><a href="classTmx_1_1ImageLayer.html#a9963adeceff59ea92933755f13ce8fa9">Tmx::ImageLayer::GetImage</a></div><div class="ttdeci">const Tmx::Image * GetImage() const </div><div class="ttdoc">Returns a variable containing information about the image of the ImageLayer. </div><div class="ttdef"><b>Definition:</b> TmxImageLayer.h:53</div></div>
-<div class="ttc" id="classTmx_1_1ImageLayer_html_adac463694d851f0468723318ad511264"><div class="ttname"><a href="classTmx_1_1ImageLayer.html#adac463694d851f0468723318ad511264">Tmx::ImageLayer::ImageLayer</a></div><div class="ttdeci">ImageLayer(const Tmx::Map *_map)</div><div class="ttdoc">Construct an ImageLayer on the given map. </div><div class="ttdef"><b>Definition:</b> TmxImageLayer.cpp:37</div></div>
-<div class="ttc" id="classTmx_1_1ImageLayer_html_a5441c6a1393d0b9bea4356f048f8a5c8"><div class="ttname"><a href="classTmx_1_1ImageLayer.html#a5441c6a1393d0b9bea4356f048f8a5c8">Tmx::ImageLayer::Parse</a></div><div class="ttdeci">void Parse(const tinyxml2::XMLNode *imageLayerNode)</div><div class="ttdoc">Parse a ImageLayer element. </div><div class="ttdef"><b>Definition:</b> TmxImageLayer.cpp:48</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_af3af3bd8989ea5a6648e3d07e0e352b4"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#af3af3bd8989ea5a6648e3d07e0e352b4">Tmx::GroupLayer::Parse</a></div><div class="ttdeci">void Parse(const tinyxml2::XMLNode *groupLayerNode)</div><div class="ttdoc">Parse a GroupLayer element. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:48</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html"><div class="ttname"><a href="classTmx_1_1GroupLayer.html">Tmx::GroupLayer</a></div><div class="ttdoc">A class used for holding groups of layers to create a layer heirarchy. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.h:40</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_af25ca0ff8a0b159475fb9cc4359ffab1"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#af25ca0ff8a0b159475fb9cc4359ffab1">Tmx::GroupLayer::GetChildren</a></div><div class="ttdeci">const std::vector&lt; Tmx::Layer * &gt; GetChildren() const noexcept</div><div class="ttdoc">Returns a variable containing information about the image of the ImageLayer. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:110</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_a18a459d899189617091e3847be84c413"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#a18a459d899189617091e3847be84c413">Tmx::GroupLayer::GetOffsetY</a></div><div class="ttdeci">int GetOffsetY() const noexcept</div><div class="ttdoc">Returns the y offset. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:130</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_ad2b8f64f51197e916b33d0187f2542f2"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#ad2b8f64f51197e916b33d0187f2542f2">Tmx::GroupLayer::AddChild</a></div><div class="ttdeci">void AddChild(Tmx::Layer *childLayer)</div><div class="ttdoc">Adds a child Layer to the group. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:101</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_a7c773d98ec765597d959c02a0653ed1c"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#a7c773d98ec765597d959c02a0653ed1c">Tmx::GroupLayer::GroupLayer</a></div><div class="ttdeci">GroupLayer(const Tmx::Map *_map)</div><div class="ttdoc">Construct an GroupLayer on the given map. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:37</div></div>
 <div class="ttc" id="classTmx_1_1Map_html"><div class="ttname"><a href="classTmx_1_1Map.html">Tmx::Map</a></div><div class="ttdoc">This class is the root class of the parser. </div><div class="ttdef"><b>Definition:</b> TmxMap.h:115</div></div>
-<div class="ttc" id="classTmx_1_1ImageLayer_html"><div class="ttname"><a href="classTmx_1_1ImageLayer.html">Tmx::ImageLayer</a></div><div class="ttdoc">A class used for holding information about a background image. </div><div class="ttdef"><b>Definition:</b> TmxImageLayer.h:41</div></div>
-<div class="ttc" id="classTmx_1_1Image_html"><div class="ttname"><a href="classTmx_1_1Image.html">Tmx::Image</a></div><div class="ttdoc">A class used for storing information about an image within a tileset. </div><div class="ttdef"><b>Definition:</b> TmxImage.h:42</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_a5b9385e32fcba0b9dfd1ff120e5e7e26"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#a5b9385e32fcba0b9dfd1ff120e5e7e26">Tmx::GroupLayer::GetOffsetX</a></div><div class="ttdeci">int GetOffsetX() const noexcept</div><div class="ttdoc">Returns the x offset. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:125</div></div>
+<div class="ttc" id="classTmx_1_1GroupLayer_html_a7b8aceb820ea889558acdd0933c0a9e5"><div class="ttname"><a href="classTmx_1_1GroupLayer.html#a7b8aceb820ea889558acdd0933c0a9e5">Tmx::GroupLayer::SetOffset</a></div><div class="ttdeci">void SetOffset(const int offsetX, const int offsetY)</div><div class="ttdoc">Sets the offset for this GroupLayer. </div><div class="ttdef"><b>Definition:</b> TmxGroupLayer.cpp:119</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

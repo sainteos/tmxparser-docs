@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['layer',['Layer',['../classTmx_1_1Layer.html',1,'Tmx']]]
+  ['image',['Image',['../classTmx_1_1Image.html',1,'Tmx']]],
+  ['imagelayer',['ImageLayer',['../classTmx_1_1ImageLayer.html',1,'Tmx']]]
 ];
