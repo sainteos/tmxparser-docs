@@ -74,6 +74,7 @@ var searchData=
   ['getstaggeraxis',['GetStaggerAxis',['../classTmx_1_1Map.html#a442d8d11d30de6c5f72e300636969766',1,'Tmx::Map']]],
   ['getstaggerindex',['GetStaggerIndex',['../classTmx_1_1Map.html#a6fce5949f2c6c42764f1eb2dbdee8007',1,'Tmx::Map']]],
   ['getstringproperty',['GetStringProperty',['../classTmx_1_1PropertySet.html#a307ae6b1427fba22a9304bf8ad1ef946',1,'Tmx::PropertySet']]],
+  ['gettext',['GetText',['../classTmx_1_1Object.html#a7cda89faeae328a67655006a3d43b734',1,'Tmx::Object']]],
   ['gettile',['GetTile',['../classTmx_1_1TileLayer.html#aa945617d235b87e9b532ddcad2f88af0',1,'Tmx::TileLayer::GetTile(int x, int y) const '],['../classTmx_1_1TileLayer.html#a26aa35c451cdca8dce826167717280e0',1,'Tmx::TileLayer::GetTile(int index) const '],['../classTmx_1_1Tileset.html#a2af81a90aefc762fa3d05f9673f0ff25',1,'Tmx::Tileset::GetTile()']]],
   ['gettilecount',['GetTileCount',['../classTmx_1_1Tileset.html#ab6ccaf5f4147e9b95c16e69163036df8',1,'Tmx::Tileset']]],
   ['gettilegid',['GetTileGid',['../classTmx_1_1TileLayer.html#a5ca43217676bfb8b5f45847587dc4318',1,'Tmx::TileLayer']]],
