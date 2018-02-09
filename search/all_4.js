@@ -90,7 +90,7 @@ var searchData=
   ['gettilewidth',['GetTileWidth',['../classTmx_1_1Map.html#acc625a29299129b6f1d534bb768c0e3f',1,'Tmx::Map::GetTileWidth()'],['../classTmx_1_1Tileset.html#a3ebb60d5b3f4a64135c6c9d4a20a1ec4',1,'Tmx::Tileset::GetTileWidth()']]],
   ['gettotalduration',['GetTotalDuration',['../classTmx_1_1Tile.html#a06cd238d0fd53822ef1487498a890944',1,'Tmx::Tile']]],
   ['gettransparentcolor',['GetTransparentColor',['../classTmx_1_1Image.html#ab1fa4a19a0cf59a91a43a798e279de96',1,'Tmx::Image']]],
-  ['gettype',['GetType',['../classTmx_1_1Object.html#a99cb9247d2bebbe45c7cccc58cf47737',1,'Tmx::Object::GetType()'],['../classTmx_1_1Property.html#a044e2f2d7b7b6d331df49a0cf5782375',1,'Tmx::Property::GetType()']]],
+  ['gettype',['GetType',['../classTmx_1_1Object.html#a99cb9247d2bebbe45c7cccc58cf47737',1,'Tmx::Object::GetType()'],['../classTmx_1_1Property.html#a044e2f2d7b7b6d331df49a0cf5782375',1,'Tmx::Property::GetType()'],['../classTmx_1_1Tile.html#ae2ee9c3a5556fd71f0ab9a4056d1a36f',1,'Tmx::Tile::GetType()']]],
   ['getvalue',['GetValue',['../classTmx_1_1Property.html#a3e9c675710a0c442ab18a48d070b1f78',1,'Tmx::Property']]],
   ['getversion',['GetVersion',['../classTmx_1_1Map.html#a0293a108d6dad2581b7db37adeee1474',1,'Tmx::Map']]],
   ['getwidth',['GetWidth',['../classTmx_1_1Image.html#a0a85449377d63b40ed4b5cf406985e0a',1,'Tmx::Image::GetWidth()'],['../classTmx_1_1Layer.html#a199a01de350b86975e9473a9aa491de4',1,'Tmx::Layer::GetWidth()'],['../classTmx_1_1Map.html#a725e44f4122460bd8aafecc1849a2163',1,'Tmx::Map::GetWidth()'],['../classTmx_1_1Object.html#a5f34e674147cd764e874e0f59c3427fc',1,'Tmx::Object::GetWidth()']]],
