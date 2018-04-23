@@ -5,7 +5,7 @@ var searchData=
   ['imagelayer',['ImageLayer',['../classTmx_1_1ImageLayer.html',1,'Tmx']]],
   ['imagelayer',['ImageLayer',['../classTmx_1_1ImageLayer.html#adac463694d851f0468723318ad511264',1,'Tmx::ImageLayer']]],
   ['isanimated',['IsAnimated',['../classTmx_1_1Tile.html#ab8993fd3a43772a14d78c0ae9a142f2a',1,'Tmx::Tile']]],
-  ['isoftype',['IsOfType',['../classTmx_1_1Property.html#ae969a247c4e494c13c15a96fe8f9c227',1,'Tmx::Property']]],
+  ['isoftype',['IsOfType',['../classTmx_1_1Property.html#af9d00b55c1430225d586eb68ce6fb53a',1,'Tmx::Property']]],
   ['istileflippeddiagonally',['IsTileFlippedDiagonally',['../classTmx_1_1TileLayer.html#a151af08626fb9edee291dc20f431c130',1,'Tmx::TileLayer']]],
   ['istileflippedhorizontally',['IsTileFlippedHorizontally',['../classTmx_1_1TileLayer.html#a65cf0f77fcebdb13a4d8a58f6af35634',1,'Tmx::TileLayer']]],
   ['istileflippedvertically',['IsTileFlippedVertically',['../classTmx_1_1TileLayer.html#a318e88a21c62a5bc642162dcc0b880c8',1,'Tmx::TileLayer']]],
